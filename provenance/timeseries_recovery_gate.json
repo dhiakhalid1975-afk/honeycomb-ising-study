@@ -1,0 +1,60 @@
+{
+  "central_pair_check": {
+    "case_label": "random_p080",
+    "n_pairs": 20,
+    "occupancy_match": true,
+    "paired_z_abs_m": 1.1820748535495589,
+    "paired_z_energy": 0.37449636238834744,
+    "relative_mean_difference_abs_m": 0.0014848451013943164,
+    "relative_mean_difference_energy": 2.7444130583166632e-05,
+    "temperature": 0.9126748444492131,
+    "temperature_offset": 0.0
+  },
+  "checks": {
+    "all_expected_recovery_timeseries_complete": true,
+    "ess_pass_fraction": true,
+    "finite_raw_trajectory_metrics": true,
+    "paired_abs_m_relative_difference": true,
+    "paired_abs_m_z": true,
+    "paired_energy_relative_difference": true,
+    "paired_energy_z": true,
+    "paired_masks_identical": true,
+    "split_stability_pass_fraction": true
+  },
+  "completed_jobs": 40,
+  "created_utc": "2026-07-29T10:21:22.146719+00:00",
+  "diagnostic_flags_not_hard_gates": {
+    "chains_with_split_z_abs_m_gt_2_5": 0,
+    "chains_with_split_z_energy_gt_2_5": 8,
+    "chains_with_tau_half_ratio_gt_4_abs_m": 0,
+    "chains_with_tau_half_ratio_gt_4_energy": 0
+  },
+  "ess_joint_pass_fraction": 1.0,
+  "expected_jobs": 40,
+  "figure_files_created": 4,
+  "gate_type": "targeted_confirmatory_timeseries_recovery",
+  "interpretation_guard": "This is a fixed, fresh-mask confirmatory recovery of the sole failed p=0.80 central paired-start check. It does not erase the original failure and does not weaken any threshold.",
+  "missing_jobs": [],
+  "protocol": {
+    "L": 120,
+    "case_label": "random_p080",
+    "equilibration_steps": 30000,
+    "fresh_masks_relative_to_original_sidecar": true,
+    "measurement_steps": 20000,
+    "measurement_stride": 2,
+    "n_realizations": 20,
+    "realization_offset": 1000,
+    "seed_namespace_prefix": "timeseries_recovery_n60_v1"
+  },
+  "split_joint_pass_fraction": 1.0,
+  "status": "pass",
+  "thresholds": {
+    "ess_min": 100.0,
+    "paired_relative_abs_m_max": 0.08,
+    "paired_relative_energy_max": 0.03,
+    "paired_z_max": 2.5,
+    "required_pass_fraction": 0.9,
+    "split_relative_abs_m_max": 0.08,
+    "split_relative_energy_max": 0.03
+  }
+}

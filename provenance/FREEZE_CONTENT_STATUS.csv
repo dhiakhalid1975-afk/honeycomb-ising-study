@@ -1,0 +1,7 @@
+section,canonical_content,status
+01_ORIGINAL_IMMUTABLE,Original v3.2.1 package + SPEC_LOCK + immutable input provenance,READY
+02_FINAL_DECISION_CORRECTION,Corrected v3.2.1.1 decision code/generator/tests/tables/audit,READY_TESTED_PASS
+03_FINAL_AUDIT_EVIDENCE,ESS/time-series/recovery/adaptive evidence + provenance,READY
+04_FINAL_FIGURE_CODE_AND_FIGURES,Inside-uniform renderer reconstruction + Figure2 renderer reconstruction + verified manuscript figures + catalogs/provenance,READY_WITH_SOURCE_PROVENANCE
+05_PAPER_STRUCTURE_AND_REFERENCES,Verified final manuscript + current structure/map + literature/source records + requirements,READY
+90_HISTORICAL_ARCHIVE,Exact Library references for six immutable historical ZIPs,READY_AS_EXTERNAL_IMMUTABLE_REFERENCES

@@ -1,0 +1,14 @@
+{
+  "freeze_name": "FGT_PUBLICATION_FREEZE_v3_2_1_1",
+  "scientific_canonical_status": "PASS",
+  "decision_correction_tests": "PASS",
+  "original_v321_package_included": true,
+  "spec_lock_included": true,
+  "final_manuscript_included": true,
+  "audit_evidence_included": true,
+  "final_manuscript_figures_included": true,
+  "historical_zip_raw_bytes_included": false,
+  "historical_zip_policy": "Exact Library paths, file IDs, and sizes are frozen in 90_HISTORICAL_ARCHIVE/HISTORICAL_ARCHIVE_POINTERS.csv; raw export was unauthorized, therefore no fake replacement archives were created.",
+  "no_scientific_value_recomputed_for_freeze": true,
+  "canonical_locked_values_changed": false
+}

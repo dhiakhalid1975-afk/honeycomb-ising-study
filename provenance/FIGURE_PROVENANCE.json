@@ -1,0 +1,30 @@
+{
+  "canonical_indexed_source": {
+    "library_file_id": "file_00000000bd30822f98404a364a2ae499",
+    "library_name": "BUILD_PUBLICATION_FIGURES_v321_1(2).py",
+    "verified_internal_build_version": "v321_1-figs-2026-08-12-legend-inside-uniform",
+    "freeze_file": "BUILD_PUBLICATION_FIGURES_v321_1_INSIDE_UNIFORM.py",
+    "freeze_status": "functional reconstruction from verified indexed source plus visual-QA predecessor; not asserted byte-identical to inaccessible raw library bytes"
+  },
+  "figure2_indexed_source": {
+    "library_file_id": "file_00000000c60c820a9a2f7ee701893f9a",
+    "library_name": "BUILD_FIGURE2_rg_crossings.py",
+    "verified_internal_build_version": "v321_1-fig2-2026-08-12-pairset-comparability",
+    "freeze_file": "BUILD_FIGURE2_rg_crossings.py",
+    "freeze_status": "functional reconstruction from indexed source; not asserted byte-identical to inaccessible raw library bytes"
+  },
+  "manuscript_embedded_figures": {
+    "source_docx": "Quenched_Site_Dilution_Honeycomb_Ising_CLAUDE_ALIGNED_LOCKED_FINAL_VERIFIED.docx",
+    "source_docx_sha256": "c8370cb1548709c3b13e3e3f754587c2da9423a57bbe4389ed52f5567ccea97a",
+    "status": "byte-extracted from the verified final manuscript"
+  },
+  "backup_executed_package": {
+    "library_file_id": "file_000000004c6c8211898ab9f626d5fb15",
+    "freeze_path": "BACKUP_PRE_INSIDE_UNIFORM_EXECUTED/figures_v321_1_executed.zip",
+    "role": "backup only; corrected decision output before final inside-uniform visual pass"
+  },
+  "outside_axes_policy": "outside-axes variants are not canonical; retained only as prior visual lineage when available.",
+  "catalog_scope": "Final verified manuscript embedded figures. This catalog does not falsely claim that inaccessible raw INSIDE_UNIFORM output bytes were exported.",
+  "final_catalog": "FIGURE_CATALOG_v321_1.csv",
+  "final_figure_directory": "MANUSCRIPT_EMBEDDED_FIGURES_FINAL"
+}

@@ -1,0 +1,57 @@
+{
+  "tool": "DECISION_CORRECTION_AUDIT",
+  "decision_layer_version": "v3.2.1.1-decision-corrected",
+  "created_utc": "2026-08-13T17:56:18.846753+00:00",
+  "scope": "Decision-layer correction only; no Monte Carlo, bootstrap, Tc, nu, or exponent-ratio estimate is recomputed.",
+  "defect": "In v3.2.1, compatibility from robustness envelopes was evaluated before the primary boundary/validity identifiability gates. This allowed a boundary-railing diluted case to be labelled NU1_COMPATIBLE.",
+  "correction": "Fail closed: pristine calibration special case; then boundary gate, validity gate, Tc-channel consistency, pristine-calibration veto, paired-Lmin correction veto, and only then compatibility/evidence evaluation.",
+  "locked_thresholds": {
+    "max_primary_boundary_fraction": 0.1,
+    "min_primary_valid_fraction": 0.95
+  },
+  "original_decision_code_sha256": "b38e455c4548d12041ed9f8a0ea8d5d7df7315b5cb36c30235f56bc271a13e8f",
+  "corrected_decision_code_sha256": "75de4942f4c6d25196e7972c8242e909fa66fd8a7e152cd93eee471e8bee07dd",
+  "spec_lock_sha256": "98f5b9bee3b4f39495d70c88ed0b922f102e12abb12df0324c0975bffb3aace2",
+  "source_refs": {
+    "TABLE_TC_RG_CROSSING_BOOTSTRAP.csv": {
+      "library_file_id": "file_0000000072d4820aac8dd1ffba23bc6b",
+      "library_path": "/بحث11111/TABLE_TC_RG_CROSSING_BOOTSTRAP.csv",
+      "snapshot": "input_snapshots/TABLE_TC_RG_CROSSING_BOOTSTRAP.snapshot.csv",
+      "snapshot_sha256": "ad66a05dcbcf82aea4f16ad3639f7afcd8b34789fee75ecc4ee40f578580f688"
+    },
+    "TABLE_NU_CORRECTION_AWARE.csv": {
+      "library_file_id": "file_000000009114820a92eaecc8382d684d",
+      "library_path": "/بحث11111/TABLE_NU_CORRECTION_AWARE.csv",
+      "snapshot": "input_snapshots/TABLE_NU_CORRECTION_AWARE.snapshot.csv",
+      "snapshot_sha256": "83465751993df9fa95858879871766e81e1b3570e03fc3e897fa08680850197f"
+    },
+    "TABLE_FINAL_DECISIONS_v321.csv": {
+      "library_file_id": "file_00000000688481f4a9b4fa84728bc561",
+      "library_path": "/بحث11111/TABLE_FINAL_DECISIONS_v321.csv",
+      "snapshot": "input_snapshots/TABLE_FINAL_DECISIONS_v321.original.snapshot.csv",
+      "snapshot_sha256": "6be45cee15a8b1fea17fca10d997707d1cbf3c2af6d0cd9dcb286e54a72f9f14"
+    },
+    "PRISTINE_CALIBRATION_v321.json": {
+      "library_file_id": "file_00000000b730820a8e252f90c108e9f4",
+      "library_path": "/بحث11111/PRISTINE_CALIBRATION_v321.json",
+      "snapshot": "input_snapshots/PRISTINE_CALIBRATION_v321.snapshot.json",
+      "snapshot_sha256": "bd54865925bced9a9feaa6a2547928894323187f152be95b85abf3b9e5afe969"
+    }
+  },
+  "source_byte_hash_note": "Original library byte hashes are not asserted where the connector did not expose raw bytes. Snapshot hashes above identify the parsed input snapshots used for this reconstruction.",
+  "test_status": "PASS",
+  "expected_classifications": {
+    "random_p080": "INCONCLUSIVE_LIMITED_RANGE",
+    "random_p085": "INCONCLUSIVE_LIMITED_RANGE",
+    "random_p090": "INCONCLUSIVE_LIMITED_RANGE",
+    "pristine_p100": "NU1_COMPATIBLE"
+  },
+  "outputs": {
+    "decision_v321_1.py": "75de4942f4c6d25196e7972c8242e909fa66fd8a7e152cd93eee471e8bee07dd",
+    "generate_decision_correction_v321_1.py": "9a3185798ae83f6430cfdf972b352a4207b2540a1b024a05c36e163c92cdf182",
+    "test_decision_v321_1.py": "a07494e7cf1f20568cf66c5b95d4be58f40db2264528c09731ff1f583d55b5aa",
+    "TABLE_FINAL_DECISIONS_v321_1.csv": "c8f8215b0c7accf3a8c4f35bba534da344ef4803a7c988e9b777033bc37cd06f",
+    "CLAIM_SCOPE_TABLE_v321_1.csv": "1253388f038568b758a7a7cf9e182810d816310ba84259ae3b749de0ee527a3e",
+    "DECISION_CORRECTION_v321_to_v321_1.patch": "82a180de3078ec117c254f6978b8acc8d02de90358a96f98c0fded4c8f6c76bd"
+  }
+}

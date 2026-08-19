@@ -1,0 +1,7 @@
+claim,allowed,status,note
+RG-crossing Tc(p) estimates with quenched-realization bootstrap,True,ALLOWED_WITH_METHOD_LABEL,Report Binder and xi/L channel estimates and joint estimator; distinguish bootstrap CI from robustness envelope.
+nu=1 compatibility within current finite-size range,True,ALLOWED_IF_DECISION_SUPPORTS,Use NU1_COMPATIBLE or INCONCLUSIVE language exactly as generated.
+finite-size/logarithmic corrections dominate apparent exponent drift,True,ALLOWED_WHEN_PAIRED_DRIFT_GATE_TRIGGERS,"Describe as correction-dominated finite-size evidence, not direct measurement of a logarithmic exponent."
+nu differs asymptotically from 1,False,PROHIBITED_UNLESS_EVIDENCE_AGAINST_NU1_AND_EXTERNAL_REVIEW,Even EVIDENCE_AGAINST_NU1 is framework-specific and does not establish a new universality class.
+new universality class,False,PROHIBITED,Five sizes over L=40..120 cannot establish a new universality class in the marginal-disorder problem.
+DFT-parameterized or Kelvin material prediction,False,PROHIBITED,No material exchange/anisotropy values are injected into the accepted Ising Monte Carlo data.

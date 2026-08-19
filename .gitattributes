@@ -1,2 +1,22 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve frozen scientific files byte-for-byte
+
+# Preserve frozen scientific files byte-for-byte
+analysis/** -text
+configs/** -text
+docs/** -text
+figures/** -text
+provenance/** -text
+tables/** -text
+tests/** -text
+
+# Preserve frozen scientific files byte-for-byte
+analysis/** -text
+configs/** -text
+docs/** -text
+figures/** -text
+provenance/** -text
+tables/** -text
+tests/** -text

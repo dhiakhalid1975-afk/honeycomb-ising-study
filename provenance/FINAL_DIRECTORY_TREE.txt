@@ -1,0 +1,101 @@
+FGT_PUBLICATION_FREEZE_v3_2_1_1
+├── 01_ORIGINAL_IMMUTABLE/
+│   ├── DECISIONS_LOCKED.md
+│   ├── FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1.zip
+│   ├── FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1.zip.sha256
+│   ├── IMMUTABLE_INPUT_PROVENANCE.csv
+│   ├── PACKAGE_SHA256_MANIFEST.csv
+│   └── SPEC_LOCK.json
+├── 02_FINAL_DECISION_CORRECTION/
+│   ├── input_snapshots/
+│   │   ├── PRISTINE_CALIBRATION_v321.snapshot.json
+│   │   ├── TABLE_FINAL_DECISIONS_v321.original.snapshot.csv
+│   │   ├── TABLE_NU_CORRECTION_AWARE.snapshot.csv
+│   │   └── TABLE_TC_RG_CROSSING_BOOTSTRAP.snapshot.csv
+│   ├── CLAIM_SCOPE_TABLE_v321_1.csv
+│   ├── DECISION_CORRECTION_AUDIT.json
+│   ├── DECISION_CORRECTION_v321_to_v321_1.patch
+│   ├── decision_v321_1.py
+│   ├── decision_v321_ORIGINAL_FOR_AUDIT.py
+│   ├── generate_decision_correction_v321_1.py
+│   ├── PATCH_SHA256_MANIFEST.csv
+│   ├── TABLE_FINAL_DECISIONS_v321_1.csv
+│   ├── test_decision_v321_1.py
+│   └── test_decision_v321_ORIGINAL_FOR_AUDIT.py
+├── 03_FINAL_AUDIT_EVIDENCE/
+│   ├── adaptive_final_decision.json
+│   ├── ADDITIONAL_AUDIT_POINTERS.csv
+│   ├── AUDIT_SOURCE_MANIFEST.json
+│   ├── ESS_CORRECTION_AUDIT.json
+│   ├── ESS_CORRECTION_AUDIT.py
+│   ├── P080_TIMESERIES_RECOVERY_AUDIT.md
+│   ├── PRISTINE_CALIBRATION_v321.snapshot.json
+│   ├── timeseries_gate.json
+│   └── timeseries_recovery_gate.json
+├── 04_FINAL_FIGURE_CODE_AND_FIGURES/
+│   ├── BACKUP_PRE_INSIDE_UNIFORM_EXECUTED/
+│   │   ├── figures_v321_1/
+│   │   │   ├── FIG01_rg_crossing_tc_vs_p.metadata.json
+│   │   │   ├── FIG01_rg_crossing_tc_vs_p.pdf
+│   │   │   ├── FIG01_rg_crossing_tc_vs_p.png
+│   │   │   ├── FIG01_rg_crossing_tc_vs_p.svg
+│   │   │   ├── FIG02_nu_intervals_and_identifiability.metadata.json
+│   │   │   ├── FIG02_nu_intervals_and_identifiability.pdf
+│   │   │   ├── FIG02_nu_intervals_and_identifiability.png
+│   │   │   ├── FIG02_nu_intervals_and_identifiability.svg
+│   │   │   ├── FIG03_paired_Lmin_drift.metadata.json
+│   │   │   ├── FIG03_paired_Lmin_drift.pdf
+│   │   │   ├── FIG03_paired_Lmin_drift.png
+│   │   │   ├── FIG03_paired_Lmin_drift.svg
+│   │   │   ├── FIG04_exponent_ratio_consistency.metadata.json
+│   │   │   ├── FIG04_exponent_ratio_consistency.pdf
+│   │   │   ├── FIG04_exponent_ratio_consistency.png
+│   │   │   ├── FIG04_exponent_ratio_consistency.svg
+│   │   │   ├── FIG05_decision_summary.metadata.json
+│   │   │   ├── FIG05_decision_summary.pdf
+│   │   │   ├── FIG05_decision_summary.png
+│   │   │   ├── FIG05_decision_summary.svg
+│   │   │   ├── FIG06_identifiability_metrics.metadata.json
+│   │   │   ├── FIG06_identifiability_metrics.pdf
+│   │   │   ├── FIG06_identifiability_metrics.png
+│   │   │   ├── FIG06_identifiability_metrics.svg
+│   │   │   ├── FIGURE_CATALOG_v321_1.csv
+│   │   │   └── FIGURE_PROVENANCE.json
+│   │   └── figures_v321_1_executed.zip
+│   ├── BACKUP_VISUAL_QA_PATCH/
+│   │   └── BUILD_PUBLICATION_FIGURES_v321_1_VISUAL_QA_PATCH.zip
+│   ├── MANUSCRIPT_EMBEDDED_FIGURES_FINAL/
+│   │   ├── Figure1_model_and_inference_workflow.png
+│   │   ├── Figure2_rg_invariant_crossings.png
+│   │   ├── Figure3_tc_locked.png
+│   │   ├── Figure4_nu_intervals_and_identifiability.png
+│   │   ├── Figure5_identifiability_metrics.png
+│   │   ├── Figure6_exponent_ratio_consistency.png
+│   │   └── Supplementary_Figure_S1_paired_Lmin_drift.png
+│   ├── BUILD_FIGURE2_rg_crossings.py
+│   ├── BUILD_PUBLICATION_FIGURES_v321_1_INSIDE_UNIFORM.py
+│   ├── FIGURE_CATALOG_v321_1.csv
+│   ├── FIGURE_PROVENANCE.json
+│   ├── FIGURE_SOURCE_PROVENANCE.json
+│   ├── MANUSCRIPT_FIGURE_MAP.csv
+│   ├── TABLE_CROSSING_DRIFT_DIAGNOSTIC_SOURCE_POINTER.json
+│   └── TABLE_CROSSING_DRIFT_SUMMARY.csv
+├── 05_PAPER_STRUCTURE_AND_REFERENCES/
+│   ├── CLAUDE_EDITORIAL_STRUCTURE_REFERENCE_ONLY.docx
+│   ├── HAYKALIYAT_AL_BAHTH_AR.md
+│   ├── KHARITAT_AL_ASHKAL_AR.md
+│   ├── LITERATURE_EVIDENCE_NOTES.md
+│   ├── MANUSCRIPT_REQUIREMENTS_LOCKED.docx
+│   ├── PAPER_FILE_ROLES.csv
+│   ├── Quenched_Site_Dilution_Honeycomb_Ising_CLAUDE_ALIGNED_LOCKED_FINAL_VERIFIED.docx
+│   ├── source_registry_v321.csv
+│   └── SOURCE_VERIFICATION.md
+├── 90_HISTORICAL_ARCHIVE/
+│   ├── ARCHIVE_POLICY.txt
+│   └── HISTORICAL_ARCHIVE_POINTERS.csv
+├── 00_READ_ME_FIRST_AR.md
+├── FINAL_DIRECTORY_TREE.txt
+├── FREEZE_CONTENT_STATUS.csv
+├── FREEZE_INTEGRITY_REPORT.json
+├── FREEZE_MANIFEST_SUMMARY.json
+└── FREEZE_SHA256_MANIFEST.csv

@@ -1,0 +1,17 @@
+{
+  "freeze_name": "FGT_PUBLICATION_FREEZE_v3_2_1_1",
+  "top_level_directories": [
+    "01_ORIGINAL_IMMUTABLE",
+    "02_FINAL_DECISION_CORRECTION",
+    "03_FINAL_AUDIT_EVIDENCE",
+    "04_FINAL_FIGURE_CODE_AND_FIGURES",
+    "05_PAPER_STRUCTURE_AND_REFERENCES",
+    "90_HISTORICAL_ARCHIVE"
+  ],
+  "decision_correction_test_status": "PASS",
+  "canonical_manuscript_sha256": "c8370cb1548709c3b13e3e3f754587c2da9423a57bbe4389ed52f5567ccea97a",
+  "spec_lock_sha256": "98f5b9bee3b4f39495d70c88ed0b922f102e12abb12df0324c0975bffb3aace2",
+  "immutable_n60_input_sha256": "c459e37ca42285cdaca5530512e76257eab7ac176282e1dcca1a9a77937fdf06",
+  "immutable_pristine_input_sha256": "18e7b7bdbf335d5698ef4e32d0eac2b06b75a4e0c8691aa832e6b2e2faf549c0",
+  "historical_archives": "external immutable Library references; no substitute bytes fabricated"
+}

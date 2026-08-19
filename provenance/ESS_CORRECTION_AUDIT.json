@@ -1,0 +1,157 @@
+{
+  "tool": "ESS_CORRECTION_AUDIT",
+  "created_utc": "2026-08-12T10:23:31.045707+00:00",
+  "project_root": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT",
+  "input_hashes": {
+    "fine_realizations_n60.csv": "c459e37ca42285cdaca5530512e76257eab7ac176282e1dcca1a9a77937fdf06",
+    "reference_realizations.csv": "18e7b7bdbf335d5698ef4e32d0eac2b06b75a4e0c8691aa832e6b2e2faf549c0"
+  },
+  "probe_temperatures_source": "locked near_tc_ess gate temperatures from adaptive_final_decision.json; exact Tc for p=1",
+  "defect": "simulation.py converts the integrated autocorrelation time to cluster-flip units (tau = tau_stored * measurement_stride) before passing it to observables.py, which then divides the number of STORED measurements by 2*tau. Numerator and denominator are in different units, so the recorded ESS is smaller than the standard value by exactly measurement_stride.",
+  "standard_definition": "ESS = N_stored/(2*tau_stored) = N_steps/(2*tau_flips)",
+  "direction_of_error": "conservative_only",
+  "impact": "Every ESS gate was applied at measurement_stride times its nominal strictness. No realization passed a gate through inflation. Reported sampling adequacy is therefore understated, never overstated.",
+  "action_required": "Documentation only. No Monte Carlo, bootstrap or analysis stage needs to be repeated. Fix the unit convention in the next clean code release.",
+  "cases": [
+    {
+      "case_label": "random_p080",
+      "source": "production_fine",
+      "L": 120,
+      "temperature_probe": 0.909963992799,
+      "probe_anchor": 0.909963992799,
+      "probe_anchor_source": "locked_near_tc_ess_gate_temperature",
+      "equilibration_steps": 4000,
+      "measurement_steps": 10000,
+      "measurement_stride": 2,
+      "n_stored_measurements": 5000,
+      "n_realizations_at_probe": 60,
+      "abs_m": {
+        "tau_max_cluster_flips": 2.923761899923353,
+        "tau_median_cluster_flips": 2.226177253516748,
+        "ess_recorded_min": 855.0627874539094,
+        "ess_recorded_median": 1123.0024657029044,
+        "ess_corrected_min": 1710.1255749078189,
+        "ess_corrected_median": 2246.0049314058087,
+        "correction_factor": 2.0,
+        "recorded_equals_Nstored_over_2tauflips": true,
+        "equilibration_in_tau_max": 1368.1004599262549
+      },
+      "energy": {
+        "tau_max_cluster_flips": 11.384738831625477,
+        "tau_median_cluster_flips": 4.220034598628954,
+        "ess_recorded_min": 219.59221348629373,
+        "ess_recorded_median": 592.4253854951306,
+        "ess_corrected_min": 439.18442697258746,
+        "ess_corrected_median": 1184.8507709902613,
+        "correction_factor": 2.0,
+        "recorded_equals_Nstored_over_2tauflips": true,
+        "equilibration_in_tau_max": 351.34754157807
+      }
+    },
+    {
+      "case_label": "random_p085",
+      "source": "production_fine",
+      "L": 120,
+      "temperature_probe": 1.0899919984,
+      "probe_anchor": 1.0899919984,
+      "probe_anchor_source": "locked_near_tc_ess_gate_temperature",
+      "equilibration_steps": 4000,
+      "measurement_steps": 10000,
+      "measurement_stride": 2,
+      "n_stored_measurements": 5000,
+      "n_realizations_at_probe": 60,
+      "abs_m": {
+        "tau_max_cluster_flips": 3.9045346156975542,
+        "tau_median_cluster_flips": 3.0826133121718033,
+        "ess_recorded_min": 640.2811720375461,
+        "ess_recorded_median": 811.0012762301415,
+        "ess_corrected_min": 1280.5623440750921,
+        "ess_corrected_median": 1622.002552460283,
+        "correction_factor": 2.0,
+        "recorded_equals_Nstored_over_2tauflips": true,
+        "equilibration_in_tau_max": 1024.449875260074
+      },
+      "energy": {
+        "tau_max_cluster_flips": 15.61486099790717,
+        "tau_median_cluster_flips": 6.545682967844409,
+        "ess_recorded_min": 160.1038907957663,
+        "ess_recorded_median": 381.9312835283464,
+        "ess_corrected_min": 320.2077815915326,
+        "ess_corrected_median": 763.8625670566928,
+        "correction_factor": 2.0,
+        "recorded_equals_Nstored_over_2tauflips": true,
+        "equilibration_in_tau_max": 256.1662252732261
+      }
+    },
+    {
+      "case_label": "random_p090",
+      "source": "production_fine",
+      "L": 120,
+      "temperature_probe": 1.239967993599,
+      "probe_anchor": 1.239967993599,
+      "probe_anchor_source": "locked_near_tc_ess_gate_temperature",
+      "equilibration_steps": 4000,
+      "measurement_steps": 10000,
+      "measurement_stride": 2,
+      "n_stored_measurements": 5000,
+      "n_realizations_at_probe": 60,
+      "abs_m": {
+        "tau_max_cluster_flips": 4.222668263108293,
+        "tau_median_cluster_flips": 3.4292972702750286,
+        "ess_recorded_min": 592.0427190176094,
+        "ess_recorded_median": 729.0169967599971,
+        "ess_corrected_min": 1184.0854380352189,
+        "ess_corrected_median": 1458.0339935199943,
+        "correction_factor": 2.0,
+        "recorded_equals_Nstored_over_2tauflips": true,
+        "equilibration_in_tau_max": 947.2683504281752
+      },
+      "energy": {
+        "tau_max_cluster_flips": 11.41982644337272,
+        "tau_median_cluster_flips": 6.057589123918995,
+        "ess_recorded_min": 218.91751266069616,
+        "ess_recorded_median": 412.7065615398527,
+        "ess_corrected_min": 437.8350253213923,
+        "ess_corrected_median": 825.4131230797054,
+        "correction_factor": 2.0,
+        "recorded_equals_Nstored_over_2tauflips": true,
+        "equilibration_in_tau_max": 350.2680202571138
+      }
+    },
+    {
+      "case_label": "pristine_p100",
+      "source": "reference_pristine",
+      "L": 120,
+      "temperature_probe": 1.52,
+      "probe_anchor": 1.518651435000414,
+      "probe_anchor_source": "exact_honeycomb_Tc",
+      "equilibration_steps": 3000,
+      "measurement_steps": 10000,
+      "measurement_stride": 2,
+      "n_stored_measurements": 5000,
+      "n_realizations_at_probe": 10,
+      "abs_m": {
+        "tau_max_cluster_flips": 7.273316652089415,
+        "tau_median_cluster_flips": 5.839871173384415,
+        "ess_recorded_min": 343.7221448734564,
+        "ess_recorded_median": 429.0930543841514,
+        "ess_corrected_min": 687.4442897469128,
+        "ess_corrected_median": 858.1861087683028,
+        "correction_factor": 2.0,
+        "recorded_equals_Nstored_over_2tauflips": true,
+        "equilibration_in_tau_max": 412.46657384814756
+      },
+      "energy": {
+        "tau_max_cluster_flips": 13.08766816790873,
+        "tau_median_cluster_flips": 10.642761667658252,
+        "ess_recorded_min": 191.0195130199021,
+        "ess_recorded_median": 235.04140371923774,
+        "ess_corrected_min": 382.0390260398042,
+        "ess_corrected_median": 470.08280743847547,
+        "correction_factor": 2.0,
+        "recorded_equals_Nstored_over_2tauflips": true,
+        "equilibration_in_tau_max": 229.22341562388254
+      }
+    }
+  ]
+}

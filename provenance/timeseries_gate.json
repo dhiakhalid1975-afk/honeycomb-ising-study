@@ -1,0 +1,100 @@
+{
+  "central_pair_checks": [
+    {
+      "case_label": "random_p080",
+      "n_pairs": 20,
+      "occupancy_match": true,
+      "paired_z_abs_m": 1.1820748535495589,
+      "paired_z_energy": 0.37449636238834744,
+      "pass": true,
+      "relative_mean_difference_abs_m": 0.0014848451013943164,
+      "relative_mean_difference_energy": 2.7444130583166632e-05,
+      "temperature": 0.9126748444492131,
+      "temperature_offset": 0.0
+    },
+    {
+      "case_label": "random_p085",
+      "n_pairs": 6,
+      "occupancy_match": true,
+      "paired_z_abs_m": 0.17991316795837184,
+      "paired_z_energy": 1.0624078738413012,
+      "pass": true,
+      "relative_mean_difference_abs_m": 0.00043194853716624197,
+      "relative_mean_difference_energy": 0.00010330852910685559,
+      "temperature": 1.085111602492294,
+      "temperature_offset": 0.0
+    },
+    {
+      "case_label": "random_p090",
+      "n_pairs": 6,
+      "occupancy_match": true,
+      "paired_z_abs_m": 0.10915533751291233,
+      "paired_z_energy": 0.4324956199358341,
+      "pass": true,
+      "relative_mean_difference_abs_m": 0.00035367883605559814,
+      "relative_mean_difference_energy": 5.889431558413903e-05,
+      "temperature": 1.2388414055028405,
+      "temperature_offset": 0.0
+    }
+  ],
+  "checks": {
+    "all_expected_timeseries_complete": true,
+    "central_random_ordered_agreement": true,
+    "ess_pass_fraction": true,
+    "finite_raw_trajectory_metrics": true,
+    "paired_masks_identical_across_starts": true,
+    "split_stability_pass_fraction": true,
+    "targeted_recovery_protocol_fixed_fresh_and_threshold_preserving": true
+  },
+  "completed_jobs": 148,
+  "created_utc": "2026-07-29T10:21:31.265133+00:00",
+  "diagnostic_flags_not_hard_gates": {
+    "chains_with_split_z_abs_m_gt_2_5": 1,
+    "chains_with_split_z_energy_gt_2_5": 18,
+    "chains_with_tau_half_ratio_gt_4_abs_m": 0,
+    "chains_with_tau_half_ratio_gt_4_energy": 0
+  },
+  "ess_joint_pass_fraction": 1.0,
+  "expected_jobs": 148,
+  "gate_type": "combined_original_sidecar_plus_targeted_p080_confirmatory_recovery",
+  "interpretation_guard": "The original p=0.80 central energy-z failure is preserved in the audit. Only that sole failed check is replaced by a fixed, fresh-mask, stronger confirmatory protocol; all original thresholds remain unchanged.",
+  "missing_jobs": [],
+  "original_gate_status": "fail",
+  "pass_fraction_components": {
+    "original_sidecar_ess": 1.0,
+    "original_sidecar_split": 1.0,
+    "targeted_recovery_ess": 1.0,
+    "targeted_recovery_split": 1.0
+  },
+  "provenance": {
+    "adaptive_decision": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\manifests\\adaptive_final_decision.json",
+    "original_gate_backup": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\timeseries_diagnostics\\timeseries_gate_pre_p080_recovery.json",
+    "original_gate_sha256": "2bddbed6e53a62e57c2a88d41434b514b919fe276a532c6100f2c58e7848f186",
+    "recovery_gate": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\timeseries_diagnostics_recovery_p080_n60\\timeseries_recovery_gate.json",
+    "recovery_gate_sha256": "4b6127b57df0604dd74d66bbae4ff4791564889851c18733188475b7c6dd91d2"
+  },
+  "recovery_gate_status": "pass",
+  "split_joint_pass_fraction": 1.0,
+  "status": "pass",
+  "superseded_original_target_check_retained_for_audit": {
+    "case_label": "random_p080",
+    "n_pairs": 6,
+    "occupancy_match": true,
+    "paired_z_abs_m": 0.4187060613554359,
+    "paired_z_energy": 2.8974042275909544,
+    "pass": false,
+    "relative_mean_difference_abs_m": 0.0012931768724140861,
+    "relative_mean_difference_energy": 0.0004493442377676964,
+    "temperature": 0.9126748444492131,
+    "temperature_offset": 0.0
+  },
+  "thresholds": {
+    "ess_min": 100.0,
+    "paired_relative_abs_m_max": 0.08,
+    "paired_relative_energy_max": 0.03,
+    "paired_z_max": 2.5,
+    "required_pass_fraction": 0.9,
+    "split_relative_abs_m_max": 0.08,
+    "split_relative_energy_max": 0.03
+  }
+}
