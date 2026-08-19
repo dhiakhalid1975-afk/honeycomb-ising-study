@@ -1,0 +1,55 @@
+{
+  "interpretation_lock": "Do not modify the manuscript from these outputs unless symmetric replay and original-file invariance both PASS. Shadow decisions never overwrite original decisions automatically.",
+  "method_version": "NU_ASYMMETRIC_SENSITIVITY_v1_STRICT",
+  "original_file_invariance_pass": true,
+  "passed": true,
+  "precheck_pass": true,
+  "shadow_decisions": [
+    {
+      "binder_boundary_fraction": 0.1965,
+      "binder_gate_pass": false,
+      "case_label": "random_p080",
+      "p": 0.8,
+      "reason": "at least one primary channel still fails the locked boundary/validity identifiability gate under asymmetric domains",
+      "scope": "shadow sensitivity only; never overwrites TABLE_FINAL_DECISIONS_v321.csv",
+      "shadow_status": "ROBUST_NONIDENTIFIABLE_LIMITED_RANGE",
+      "xi_boundary_fraction": 0.208,
+      "xi_gate_pass": false
+    },
+    {
+      "binder_boundary_fraction": 0.076,
+      "binder_gate_pass": true,
+      "case_label": "random_p085",
+      "p": 0.85,
+      "reason": "both asymmetric primary gates pass and no significant paired drift veto remains; this sensitivity alone cannot replace the original decision layer",
+      "scope": "shadow sensitivity only; never overwrites TABLE_FINAL_DECISIONS_v321.csv",
+      "shadow_status": "REQUIRES_FULL_DECISION_REVIEW",
+      "xi_boundary_fraction": 0.0905,
+      "xi_gate_pass": true
+    },
+    {
+      "binder_boundary_fraction": 0.0,
+      "binder_gate_pass": true,
+      "case_label": "random_p090",
+      "p": 0.9,
+      "reason": "both asymmetric primary gates pass and no significant paired drift veto remains; this sensitivity alone cannot replace the original decision layer",
+      "scope": "shadow sensitivity only; never overwrites TABLE_FINAL_DECISIONS_v321.csv",
+      "shadow_status": "REQUIRES_FULL_DECISION_REVIEW",
+      "xi_boundary_fraction": 0.0285,
+      "xi_gate_pass": true
+    },
+    {
+      "binder_boundary_fraction": 0.0,
+      "binder_gate_pass": true,
+      "case_label": "pristine_p100",
+      "p": 1.0,
+      "reason": "both asymmetric primary gates pass and both nominal bootstrap intervals contain nu=1; calibration is not redefined here",
+      "scope": "shadow sensitivity only; never overwrites TABLE_FINAL_DECISIONS_v321.csv",
+      "shadow_status": "PRISTINE_DIAGNOSTIC_PASS",
+      "xi_boundary_fraction": 0.0,
+      "xi_gate_pass": true
+    }
+  ],
+  "status": "PASS",
+  "symmetric_replay_pass": true
+}

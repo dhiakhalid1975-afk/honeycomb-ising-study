@@ -1,0 +1,3 @@
+NU_ASYMMETRIC_SENSITIVITY_v1_STRICT
+Built for locked FGT correction-aware critical audit v3.2.1
+Sensitivity-only; original scientific outputs are immutable.

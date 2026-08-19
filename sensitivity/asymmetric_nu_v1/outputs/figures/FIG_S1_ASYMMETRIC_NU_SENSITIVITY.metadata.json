@@ -1,0 +1,9 @@
+{
+  "figure": "FIG_S1_ASYMMETRIC_NU_SENSITIVITY",
+  "meaning": "Presentation-only comparison of the original symmetric feasible-domain replay and the asymmetric-domain sensitivity, using paired bootstrap indices and unchanged locked scientific inputs.",
+  "method_version": "NU_ASYMMETRIC_SENSITIVITY_v1_STRICT",
+  "pdf_sha256": "946d5b9f8277152ee664b47b1d3946f7b42948b253162a7f5251c3e71073a187",
+  "png_sha256": "dcfec150a7bff5f3b2fe7806c86cb16164620a29de0063dbe99774872085abe9",
+  "source_table": "tables/ASYMMETRIC_NU_RESULTS.csv",
+  "source_table_sha256": "d9bfbb9f0f8dd033a1914eda39f98853baa6ddb606c02641c95b41a60c14bb38"
+}

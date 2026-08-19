@@ -1,0 +1,10 @@
+{
+  "domain_rows": 24,
+  "original_input_validation": "PASS",
+  "output_is_outside_original_trees": true,
+  "passed": true,
+  "protected_file_count": 23,
+  "selftest": "PASS",
+  "spec_sha256_match": true,
+  "status": "PASS"
+}

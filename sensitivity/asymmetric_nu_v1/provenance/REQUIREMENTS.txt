@@ -1,0 +1,3 @@
+No new scientific dependency is introduced.
+The workstation must already run the locked v3.2.1 audit package.
+Required Python packages used by that package: numpy, pandas, scipy, matplotlib.

@@ -1,0 +1,10 @@
+Package construction validation
+===============================
+- Python syntax compile: PASS
+- Standalone asymmetric fitter synthetic self-test: PASS (5/5)
+  * disconnected feasible-segment topology extraction
+  * nu=1.00 recovery for Binder ratio-of-averages
+  * nu=1.00 recovery for xi/L
+  * nu=1.12 recovery for Binder ratio-of-averages
+  * nu=1.12 recovery for xi/L
+- Full real-data run is intentionally not executed during package construction; it must run against the user's exact locked project/spec/source/results and is fail-closed if those do not match.

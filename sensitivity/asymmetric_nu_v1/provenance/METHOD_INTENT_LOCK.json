@@ -1,0 +1,18 @@
+{
+  "method_version": "NU_ASYMMETRIC_SENSITIVITY_v1_STRICT",
+  "expected_spec_name": "FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3.2.1",
+  "expected_spec_sha256": "98f5b9bee3b4f39495d70c88ed0b922f102e12abb12df0324c0975bffb3aace2",
+  "purpose": "Post-processing sensitivity test only: remove the forced symmetry of the centrally locked feasible nu domain about nu=1 while preserving all other locked scientific choices.",
+  "forbidden_changes": [
+    "No new Monte Carlo",
+    "No change to original input trajectories",
+    "No change to Tc estimator",
+    "No change to bootstrap base seed or index sequence",
+    "No change to locked support",
+    "No change to interpolation or Pb residue",
+    "No change to size windows or declared nu bounds",
+    "No change to decision thresholds",
+    "No overwrite of original scientific results or decision tables"
+  ],
+  "fail_closed": true
+}

@@ -1,0 +1,328 @@
+{
+  "checks": [
+    {
+      "after": {
+        "bytes": 4776,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "98f5b9bee3b4f39495d70c88ed0b922f102e12abb12df0324c0975bffb3aace2"
+      },
+      "before": {
+        "bytes": 4776,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "98f5b9bee3b4f39495d70c88ed0b922f102e12abb12df0324c0975bffb3aace2"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\configs\\SPEC_LOCK.json"
+    },
+    {
+      "after": {
+        "bytes": 8423,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "dc0e71e088ff25e9672b754f7db2a76d1ae2a20a7379e8c1e85a4ce88c7971b1"
+      },
+      "before": {
+        "bytes": 8423,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "dc0e71e088ff25e9672b754f7db2a76d1ae2a20a7379e8c1e85a4ce88c7971b1"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\src\\fgt_csaudit\\analysis_v321.py"
+    },
+    {
+      "after": {
+        "bytes": 10965,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "9d25f3321614141083a6b6d6aab2763158dfada15f208a3c937283ac7dbda80f"
+      },
+      "before": {
+        "bytes": 10965,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "9d25f3321614141083a6b6d6aab2763158dfada15f208a3c937283ac7dbda80f"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\src\\fgt_csaudit\\bootstrap_v321.py"
+    },
+    {
+      "after": {
+        "bytes": 692,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "7288a96b26b9f8e7c1e524c7ca15a435d97d9eefacbb7e0ea09772f31f2719a9"
+      },
+      "before": {
+        "bytes": 692,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "7288a96b26b9f8e7c1e524c7ca15a435d97d9eefacbb7e0ea09772f31f2719a9"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\src\\fgt_csaudit\\config.py"
+    },
+    {
+      "after": {
+        "bytes": 6166,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "03642ae7ee9d81cfdf2a353e6e23f4d035f412289f07434882e50b53f5a7f5eb"
+      },
+      "before": {
+        "bytes": 6166,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "03642ae7ee9d81cfdf2a353e6e23f4d035f412289f07434882e50b53f5a7f5eb"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\src\\fgt_csaudit\\correction_fit.py"
+    },
+    {
+      "after": {
+        "bytes": 8328,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "b38e455c4548d12041ed9f8a0ea8d5d7df7315b5cb36c30235f56bc271a13e8f"
+      },
+      "before": {
+        "bytes": 8328,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "b38e455c4548d12041ed9f8a0ea8d5d7df7315b5cb36c30235f56bc271a13e8f"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\src\\fgt_csaudit\\decision_v321.py"
+    },
+    {
+      "after": {
+        "bytes": 10917,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "7213ea0c1a4ef7eca65f535b126603b43a799b979c87e47d65087d3142711526"
+      },
+      "before": {
+        "bytes": 10917,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "7213ea0c1a4ef7eca65f535b126603b43a799b979c87e47d65087d3142711526"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\src\\fgt_csaudit\\io.py"
+    },
+    {
+      "after": {
+        "bytes": 1390,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "bbd41c8bb12becdcc595bd3d1ce55480b541a4260c3b1ca1deb0fa433c7632f0"
+      },
+      "before": {
+        "bytes": 1390,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "bbd41c8bb12becdcc595bd3d1ce55480b541a4260c3b1ca1deb0fa433c7632f0"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\src\\fgt_csaudit\\parallel.py"
+    },
+    {
+      "after": {
+        "bytes": 7192,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "09e94bb3c3cc7b45e926985095a5e34d16276b3ae0d29ecc22517354742a474e"
+      },
+      "before": {
+        "bytes": 7192,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "09e94bb3c3cc7b45e926985095a5e34d16276b3ae0d29ecc22517354742a474e"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\src\\fgt_csaudit\\pb.py"
+    },
+    {
+      "after": {
+        "bytes": 5374,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "783e164e89fea5fc9485875f2df477765561c6dab1dc30d12422b299bb42e916"
+      },
+      "before": {
+        "bytes": 5374,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "783e164e89fea5fc9485875f2df477765561c6dab1dc30d12422b299bb42e916"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\src\\fgt_csaudit\\rg_tc.py"
+    },
+    {
+      "after": {
+        "bytes": 10299,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "f341d35d94002a144e366d271c25495c895727ad98b6fc7040b639a0ed9bd7b6"
+      },
+      "before": {
+        "bytes": 10299,
+        "mtime_ns": 1786463438000000000,
+        "sha256": "f341d35d94002a144e366d271c25495c895727ad98b6fc7040b639a0ed9bd7b6"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\src\\fgt_csaudit\\summarize_v321.py"
+    },
+    {
+      "after": {
+        "bytes": 5430,
+        "mtime_ns": 1786478429887651600,
+        "sha256": "e9b45510f78e9b47726c8a3c8ac00d6076bea0f55a4bf6c7b6eb9afa8773f45a"
+      },
+      "before": {
+        "bytes": 5430,
+        "mtime_ns": 1786478429887651600,
+        "sha256": "e9b45510f78e9b47726c8a3c8ac00d6076bea0f55a4bf6c7b6eb9afa8773f45a"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\final_csaudit_v3_2_1_correction_aware\\FINAL_AUDIT_RESULT_v321.json"
+    },
+    {
+      "after": {
+        "bytes": 1697,
+        "mtime_ns": 1786478425453767700,
+        "sha256": "11ba36afe1f92e5cb6266a1ccfc2fc4c854769c0e4badc6d0f9f12d4e1365a57"
+      },
+      "before": {
+        "bytes": 1697,
+        "mtime_ns": 1786478425453767700,
+        "sha256": "11ba36afe1f92e5cb6266a1ccfc2fc4c854769c0e4badc6d0f9f12d4e1365a57"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\final_csaudit_v3_2_1_correction_aware\\manifests\\PRISTINE_CALIBRATION_v321.json"
+    },
+    {
+      "after": {
+        "bytes": 53823,
+        "mtime_ns": 1786469406426366900,
+        "sha256": "116190d02a09bc3de8c6d38ff7ae5acd1c4ff2bead98e5f56a28ad5f9f844724"
+      },
+      "before": {
+        "bytes": 53823,
+        "mtime_ns": 1786469406426366900,
+        "sha256": "116190d02a09bc3de8c6d38ff7ae5acd1c4ff2bead98e5f56a28ad5f9f844724"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\final_csaudit_v3_2_1_correction_aware\\tables\\LOCKED_SUPPORT_AND_SYMMETRIC_NU_BOUNDS.json"
+    },
+    {
+      "after": {
+        "bytes": 1316,
+        "mtime_ns": 1786478425448537500,
+        "sha256": "f457847625045daaae9c648d4311ea61f39a0401e3f9c8bfc2a3a4956ce6b4f9"
+      },
+      "before": {
+        "bytes": 1316,
+        "mtime_ns": 1786478425448537500,
+        "sha256": "f457847625045daaae9c648d4311ea61f39a0401e3f9c8bfc2a3a4956ce6b4f9"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\final_csaudit_v3_2_1_correction_aware\\tables\\TABLE_FINAL_DECISIONS_v321.csv"
+    },
+    {
+      "after": {
+        "bytes": 4065,
+        "mtime_ns": 1786478425445760300,
+        "sha256": "f47a967f78076bef7962200e6fe0dd8f910b2ac0ca45ca01be8939e0bcfe4cdc"
+      },
+      "before": {
+        "bytes": 4065,
+        "mtime_ns": 1786478425445760300,
+        "sha256": "f47a967f78076bef7962200e6fe0dd8f910b2ac0ca45ca01be8939e0bcfe4cdc"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\final_csaudit_v3_2_1_correction_aware\\tables\\TABLE_NU_CORRECTION_AWARE.csv"
+    },
+    {
+      "after": {
+        "bytes": 1244,
+        "mtime_ns": 1786478425448537500,
+        "sha256": "a4183d5090c2bb3933a4f86669b84b734827f7e27577e01da3d224f325d90d11"
+      },
+      "before": {
+        "bytes": 1244,
+        "mtime_ns": 1786478425448537500,
+        "sha256": "a4183d5090c2bb3933a4f86669b84b734827f7e27577e01da3d224f325d90d11"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\final_csaudit_v3_2_1_correction_aware\\tables\\TABLE_PAIRED_LMIN_DRIFT.csv"
+    },
+    {
+      "after": {
+        "bytes": 1809,
+        "mtime_ns": 1786478425443178500,
+        "sha256": "3478aec296e585e85cd129a9a8960ab77f540e65a0748ba5866f8c7247dce377"
+      },
+      "before": {
+        "bytes": 1809,
+        "mtime_ns": 1786478425443178500,
+        "sha256": "3478aec296e585e85cd129a9a8960ab77f540e65a0748ba5866f8c7247dce377"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\final_csaudit_v3_2_1_correction_aware\\tables\\TABLE_TC_RG_CROSSING_BOOTSTRAP.csv"
+    },
+    {
+      "after": {
+        "bytes": 22339,
+        "mtime_ns": 1785288272000000000,
+        "sha256": "0883f07b3f01b1cba36c7eafcd6e9a9fbe891bc4995ca7307c2a9535c5efa0fc"
+      },
+      "before": {
+        "bytes": 22339,
+        "mtime_ns": 1785288272000000000,
+        "sha256": "0883f07b3f01b1cba36c7eafcd6e9a9fbe891bc4995ca7307c2a9535c5efa0fc"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\manifests\\adaptive_final_decision.json"
+    },
+    {
+      "after": {
+        "bytes": 409,
+        "mtime_ns": 1785331608000000000,
+        "sha256": "62f0bf04bc701878371582177255d01edbcd82f33157709da8f870946a29d272"
+      },
+      "before": {
+        "bytes": 409,
+        "mtime_ns": 1785331608000000000,
+        "sha256": "62f0bf04bc701878371582177255d01edbcd82f33157709da8f870946a29d272"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\publication_export\\TABLE_TC_VS_P.csv"
+    },
+    {
+      "after": {
+        "bytes": 103502,
+        "mtime_ns": 1785331696000000000,
+        "sha256": "0c9b69b905edba38b5122a84adbe0876f97b4a66dec0abd1869398efa1a31662"
+      },
+      "before": {
+        "bytes": 103502,
+        "mtime_ns": 1785331696000000000,
+        "sha256": "0c9b69b905edba38b5122a84adbe0876f97b4a66dec0abd1869398efa1a31662"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\quality_gate.json"
+    },
+    {
+      "after": {
+        "bytes": 10893536,
+        "mtime_ns": 1785283016000000000,
+        "sha256": "c459e37ca42285cdaca5530512e76257eab7ac176282e1dcca1a9a77937fdf06"
+      },
+      "before": {
+        "bytes": 10893536,
+        "mtime_ns": 1785283016000000000,
+        "sha256": "c459e37ca42285cdaca5530512e76257eab7ac176282e1dcca1a9a77937fdf06"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\tables\\fine_realizations_n60.csv"
+    },
+    {
+      "after": {
+        "bytes": 695123,
+        "mtime_ns": 1785283024000000000,
+        "sha256": "18e7b7bdbf335d5698ef4e32d0eac2b06b75a4e0c8691aa832e6b2e2faf549c0"
+      },
+      "before": {
+        "bytes": 695123,
+        "mtime_ns": 1785283024000000000,
+        "sha256": "18e7b7bdbf335d5698ef4e32d0eac2b06b75a4e0c8691aa832e6b2e2faf549c0"
+      },
+      "pass": true,
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\tables\\reference_realizations.csv"
+    }
+  ],
+  "passed": true,
+  "status": "PASS"
+}

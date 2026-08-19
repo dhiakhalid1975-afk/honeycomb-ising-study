@@ -1,0 +1,45 @@
+{
+  "base_seed": 202608111621,
+  "boundary_fraction_of_segment": 0.02,
+  "coarse_points": 31,
+  "created_utc": "2026-08-17T14:17:50.664867+00:00",
+  "declared_nu_bounds": [
+    0.55,
+    1.45
+  ],
+  "executor_backend": "thread",
+  "feasibility_scan_points": 181,
+  "input_hashes_from_original_validator": {
+    "adaptive_decision": "0883f07b3f01b1cba36c7eafcd6e9a9fbe891bc4995ca7307c2a9535c5efa0fc",
+    "fine_realizations": "c459e37ca42285cdaca5530512e76257eab7ac176282e1dcca1a9a77937fdf06",
+    "quality_gate": "0c9b69b905edba38b5122a84adbe0876f97b4a66dec0abd1869398efa1a31662",
+    "reference_realizations": "18e7b7bdbf335d5698ef4e32d0eac2b06b75a4e0c8691aa832e6b2e2faf549c0",
+    "tc_table": "62f0bf04bc701878371582177255d01edbcd82f33157709da8f870946a29d272"
+  },
+  "max_primary_boundary_fraction": 0.1,
+  "method_version": "NU_ASYMMETRIC_SENSITIVITY_v1_STRICT",
+  "min_primary_valid_fraction": 0.95,
+  "n_bootstrap": 2000,
+  "original_package_root": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1\\FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3_2_1",
+  "original_results": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\final_csaudit_v3_2_1_correction_aware",
+  "primary_interpolation": "cubic4",
+  "project_root": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT",
+  "refine_xatol": 1e-05,
+  "scientific_change_under_test": "Remove only the forced symmetry of the centrally locked feasible nu domain about nu=1; retain all contiguous feasible segments within the declared domain.",
+  "spec_name": "FGT_CORRECTION_AWARE_CRITICAL_AUDIT_v3.2.1",
+  "spec_sha256": "98f5b9bee3b4f39495d70c88ed0b922f102e12abb12df0324c0975bffb3aace2",
+  "unchanged": [
+    "Monte Carlo trajectories and input realization curves",
+    "RG-invariant Tc estimator and per-bootstrap Tc re-estimation",
+    "bootstrap base_seed and bootstrap_index sequence",
+    "locked support target points",
+    "Bhattacharjee-Seno Pb residue",
+    "primary interpolation",
+    "x-window and size windows",
+    "declared nu bounds",
+    "coarse-point count and scalar refinement tolerance",
+    "boundary threshold 2 percent of the applicable feasible segment",
+    "decision gates from SPEC_LOCK.json",
+    "original result and decision files"
+  ]
+}

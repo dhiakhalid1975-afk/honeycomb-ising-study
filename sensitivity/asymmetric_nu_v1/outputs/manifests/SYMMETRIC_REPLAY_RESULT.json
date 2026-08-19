@@ -1,0 +1,8 @@
+{
+  "meaning": "The symmetric replay must reproduce the original v3.2.1 Tc/nu bootstrap summaries before asymmetric sensitivity is interpreted.",
+  "n_checks": 52,
+  "n_failed": 0,
+  "passed": true,
+  "status": "PASS",
+  "tolerance": 5e-10
+}

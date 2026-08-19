@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "check": "topology_two_segments",
+      "detail": [
+        [
+          0.0,
+          0.1
+        ],
+        [
+          0.30000000000000004,
+          0.4
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "recover_nu_1.00_binder_roa",
+      "detail": {
+        "boundary": false,
+        "fit_nu": 1.0000021348033143,
+        "segments": [
+          [
+            0.835,
+            1.45
+          ]
+        ],
+        "true_nu": 1.0
+      },
+      "pass": true
+    },
+    {
+      "check": "recover_nu_1.00_xi_over_L",
+      "detail": {
+        "boundary": false,
+        "fit_nu": 1.00000046552901,
+        "segments": [
+          [
+            0.835,
+            1.45
+          ]
+        ],
+        "true_nu": 1.0
+      },
+      "pass": true
+    },
+    {
+      "check": "recover_nu_1.12_binder_roa",
+      "detail": {
+        "boundary": false,
+        "fit_nu": 1.12002833215802,
+        "segments": [
+          [
+            0.835,
+            1.45
+          ]
+        ],
+        "true_nu": 1.12
+      },
+      "pass": true
+    },
+    {
+      "check": "recover_nu_1.12_xi_over_L",
+      "detail": {
+        "boundary": false,
+        "fit_nu": 1.1200347595745697,
+        "segments": [
+          [
+            0.835,
+            1.45
+          ]
+        ],
+        "true_nu": 1.12
+      },
+      "pass": true
+    }
+  ],
+  "n_checks": 5,
+  "passed": true,
+  "status": "PASS"
+}
