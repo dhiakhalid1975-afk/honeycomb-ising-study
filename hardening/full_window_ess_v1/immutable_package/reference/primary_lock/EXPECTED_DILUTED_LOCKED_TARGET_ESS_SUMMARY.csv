@@ -1,0 +1,4 @@
+case_label,n_locked_target_cells,failed_locked_target_cells,min_corrected_ESS_E_across_locked_target_cells
+random_p080,30,0,229.07939189273537
+random_p085,36,0,193.30964796005284
+random_p090,36,0,89.10764457702714

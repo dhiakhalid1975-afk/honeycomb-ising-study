@@ -1,0 +1,21 @@
+{
+  "schema": "honeycomb-final-hardening-input-lock-v1",
+  "expected": {
+    "fine_realizations_n60.csv": "c459e37ca42285cdaca5530512e76257eab7ac176282e1dcca1a9a77937fdf06",
+    "reference_realizations.csv": "18e7b7bdbf335d5698ef4e32d0eac2b06b75a4e0c8691aa832e6b2e2faf549c0",
+    "locked_support_json": "116190d02a09bc3de8c6d38ff7ae5acd1c4ff2bead98e5f56a28ad5f9f844724",
+    "spec_lock_used_json": "5e90d5cbd82c27f5542aea165fcfe13353c089c5caa5dd0b18474a6f8758810e",
+    "embedded_SPEC_LOCK_v321": "98f5b9bee3b4f39495d70c88ed0b922f102e12abb12df0324c0975bffb3aace2",
+    "v321_pb.py": "09e94bb3c3cc7b45e926985095a5e34d16276b3ae0d29ecc22517354742a474e",
+    "v321_correction_fit.py": "03642ae7ee9d81cfdf2a353e6e23f4d035f412289f07434882e50b53f5a7f5eb",
+    "v321_cli.py": "9c2461eb70871e07f58df7c29ea3608d95c270bfaa42a1ca8ba54399333f3b6b",
+    "v321_source_tree": "ad8da11f8ea7cc737e88261bf78cfb1c77c982ba9c1b804a80e526cdaddf1df3"
+  },
+  "asymmetric_completed": {
+    "FINAL_ASYMMETRIC_NU_AUDIT_REPORT.md": "d462effb624b25284b427bbb87eb0115b0c7c6bffe17bbd8674ca9a90fe3a917",
+    "tables/ASYMMETRIC_NU_RESULTS.csv": "d9bfbb9f0f8dd033a1914eda39f98853baa6ddb606c02641c95b41a60c14bb38",
+    "tables/BOOTSTRAP_DRAW_LEVEL_SYM_VS_ASYM.csv": "1df59370c443546ab9106a235b933237a1f2bcd44bd0a4a547c31bc9d72052ed",
+    "tables/SHADOW_SENSITIVITY_DECISIONS.csv": "83b6e81bc734af31aa831d736c8bdc12c72dd007fd44f58b4fb119960b2c605d",
+    "tables/SYMMETRIC_REPLAY_AUDIT.csv": "df84e9d6601f2bdd96a6ed4d3bcf5f1abb8ae73e908c753a2ffba30875360a06"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "honeycomb-final-hardening-build-validation-v1",
+  "status": "PASS_COMPLETE_EXACT_PUBLICATION_HARDENING_RUN",
+  "scientific_2000_draw_publication_run_completed_in_build_environment": true,
+  "draw_channel_rows": 16000,
+  "baseline_sentinel_replay": {
+    "rows": 24,
+    "all_pass": true,
+    "max_abs_delta_nu": 6.772360450213456e-14,
+    "max_abs_delta_Pb": 3.747002708109903e-16
+  },
+  "diluted_full_window_failed_energy_cells": {
+    "random_p080": 13,
+    "random_p085": 13,
+    "random_p090": 20
+  },
+  "diluted_failed_locked_target_cells": {
+    "random_p080": 0,
+    "random_p085": 0,
+    "random_p090": 0
+  },
+  "diluted_primary_conclusion_stable": true,
+  "strong_ess_dependency_closure_supported": true,
+  "strong_ess_dependency_closure_scope": "diluted cases only",
+  "pristine_primary_calibration_redefined": false,
+  "software_unit_tests": "8/8 PASS",
+  "final_immutable_package_manifest_files": 72
+}

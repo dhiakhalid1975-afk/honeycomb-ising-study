@@ -1,0 +1,43 @@
+{
+  "stage": "ESS_INFERENCE_DEPENDENCY_SENSITIVITY",
+  "status": "PASS",
+  "created_utc": "2026-08-18T09:44:43.648212+00:00",
+  "run_signature": "db170a6722e6c41320f892bcfeb7ccd4941d7444215a42342b9e0170dde17e69",
+  "scope": "post-hoc shadow sensitivity; primary symmetric decision unchanged",
+  "cases": [
+    {
+      "case_label": "pristine_p100",
+      "status": "TARGET_ESS_WARNING_CONSERVATIVE_CONCLUSION_NOT_OVERTURNED",
+      "both_masked_gates_pass": false,
+      "both_masked_intervals_exclude_1_same_side": false,
+      "failed_locked_target_cells": 1
+    },
+    {
+      "case_label": "random_p080",
+      "status": "SOURCE_MASK_REMAINS_NONIDENTIFIABLE_OR_LIMITED_RANGE",
+      "both_masked_gates_pass": false,
+      "both_masked_intervals_exclude_1_same_side": false,
+      "failed_locked_target_cells": 0
+    },
+    {
+      "case_label": "random_p085",
+      "status": "SOURCE_MASK_REMAINS_NONIDENTIFIABLE_OR_LIMITED_RANGE",
+      "both_masked_gates_pass": false,
+      "both_masked_intervals_exclude_1_same_side": false,
+      "failed_locked_target_cells": 0
+    },
+    {
+      "case_label": "random_p090",
+      "status": "NO_JOINT_EVIDENCE_AGAINST_NU1_UNDER_SOURCE_MASK",
+      "both_masked_gates_pass": true,
+      "both_masked_intervals_exclude_1_same_side": false,
+      "failed_locked_target_cells": 0
+    }
+  ],
+  "diluted_primary_conclusion_stable": true,
+  "strong_ess_dependency_closure_supported": true,
+  "strong_ess_dependency_closure_scope": "diluted cases only",
+  "pristine_primary_calibration_redefined": false,
+  "closure_definition": "Strong closure requires: no diluted locked target fails the post-hoc energy-ESS cell rule, masked valid fractions >=0.95, and no diluted case has both primary masked intervals exclude nu=1 on the same side with both locked gates passing.",
+  "no_new_monte_carlo": true
+}

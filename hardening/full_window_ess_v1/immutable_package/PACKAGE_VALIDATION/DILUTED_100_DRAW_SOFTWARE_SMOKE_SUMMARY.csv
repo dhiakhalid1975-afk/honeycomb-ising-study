@@ -1,0 +1,7 @@
+case_label,channel,n_draws,valid_fraction,dependency_affected_fraction,note
+random_p080,binder_roa,100,1.0,0.0,software smoke test only; 100 draws; not an inferential manuscript result
+random_p080,xi_over_L,100,1.0,0.0,software smoke test only; 100 draws; not an inferential manuscript result
+random_p085,binder_roa,100,1.0,0.73,software smoke test only; 100 draws; not an inferential manuscript result
+random_p085,xi_over_L,100,1.0,0.71,software smoke test only; 100 draws; not an inferential manuscript result
+random_p090,binder_roa,100,1.0,1.0,software smoke test only; 100 draws; not an inferential manuscript result
+random_p090,xi_over_L,100,1.0,1.0,software smoke test only; 100 draws; not an inferential manuscript result

@@ -1,0 +1,43 @@
+{
+  "schema": "honeycomb-final-hardening-method-intent-v1",
+  "package_version": "1.0.0",
+  "purpose": "Post-publication-freeze hardening only. No new Monte Carlo. Preserve the v3.2.1/v3.2.1.1 primary scientific decision layer and add isolated reviewer-facing sensitivities.",
+  "primary_analysis_remains": "prespecified symmetric v3.2.1/v3.2.1.1",
+  "new_primary_claims_prohibited": true,
+  "monte_carlo_prohibited": true,
+  "overwrite_original_files_prohibited": true,
+  "ess_dependency_sensitivity": {
+    "status": "post-hoc shadow sensitivity; cannot overwrite primary result",
+    "cell_metric": "corrected energy ESS = recorded ess_energy * measurement_stride",
+    "realization_threshold": 100.0,
+    "cell_required_pass_fraction": 0.9,
+    "mask_action": "failed cells are excluded only when serving as interpolation base/source points",
+    "locked_targets_unchanged": true,
+    "tc_per_bootstrap_draw_unchanged": true,
+    "bootstrap_indices_unchanged": true,
+    "symmetric_nu_bounds_unchanged": true,
+    "primary_interpolation_unchanged": "cubic4",
+    "pb_definition_unchanged_except_source_mask": true,
+    "decision_thresholds_unchanged": {
+      "max_boundary_fraction": 0.1,
+      "min_valid_fraction": 0.95
+    },
+    "no_fallback_interpolation": true,
+    "invalid_if_fewer_than_four_cubic_sources_or_unbracketed": true,
+    "scientific_target_cases": "diluted cases p=0.80,0.85,0.90; pristine is retained only as an ancillary post-hoc stress diagnostic and cannot redefine the pristine primary calibration",
+    "strong_closure_scope": "diluted cases only"
+  },
+  "asymmetric_sensitivity": {
+    "source": "embedded completed NU_ASYMMETRIC_SENSITIVITY_v1_STRICT output",
+    "status": "rule-locked sensitivity specified before execution; shadow only",
+    "rerun_not_required": true
+  },
+  "manuscript_policy": {
+    "do_not_auto_overwrite_docx": true,
+    "generate_reviewer_ready_insertions_and_tables": true,
+    "qualify_symmetric_results_as_primary": true,
+    "do_not_call_asymmetric_originally_prespecified": true,
+    "full_window_ess_rule_must_be_labeled_post_hoc": true,
+    "no_universality_class_claim": true
+  }
+}

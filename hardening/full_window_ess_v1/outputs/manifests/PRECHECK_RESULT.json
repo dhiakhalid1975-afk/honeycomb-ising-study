@@ -1,0 +1,174 @@
+{
+  "stage": "PRECHECK",
+  "status": "PASS",
+  "created_utc": "2026-08-18T09:33:22.427704+00:00",
+  "project_root": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT",
+  "diluted_only_mode": false,
+  "checks": [
+    {
+      "name": "fine_realizations_n60.csv",
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\tables\\fine_realizations_n60.csv",
+      "required": true,
+      "exists": true,
+      "sha256": "c459e37ca42285cdaca5530512e76257eab7ac176282e1dcca1a9a77937fdf06",
+      "expected_sha256": "c459e37ca42285cdaca5530512e76257eab7ac176282e1dcca1a9a77937fdf06",
+      "pass": true
+    },
+    {
+      "name": "reference_realizations.csv",
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\tables\\reference_realizations.csv",
+      "required": true,
+      "exists": true,
+      "sha256": "18e7b7bdbf335d5698ef4e32d0eac2b06b75a4e0c8691aa832e6b2e2faf549c0",
+      "expected_sha256": "18e7b7bdbf335d5698ef4e32d0eac2b06b75a4e0c8691aa832e6b2e2faf549c0",
+      "pass": true
+    },
+    {
+      "name": "LOCKED_SUPPORT_AND_SYMMETRIC_NU_BOUNDS.json",
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\final_csaudit_v3_2_1_correction_aware\\tables\\LOCKED_SUPPORT_AND_SYMMETRIC_NU_BOUNDS.json",
+      "required": true,
+      "exists": true,
+      "sha256": "116190d02a09bc3de8c6d38ff7ae5acd1c4ff2bead98e5f56a28ad5f9f844724",
+      "expected_sha256": "116190d02a09bc3de8c6d38ff7ae5acd1c4ff2bead98e5f56a28ad5f9f844724",
+      "pass": true
+    },
+    {
+      "name": "SPEC_LOCK_USED.json",
+      "path": "C:\\Users\\lenovo\\Desktop\\FGT24\\FGT_Dilution_Study_Code_v2.4.0_PUBLICATION_STRICT\\results\\publication_strict_phase3\\final_csaudit_v3_2_1_correction_aware\\manifests\\SPEC_LOCK_USED.json",
+      "required": true,
+      "exists": true,
+      "sha256": "5e90d5cbd82c27f5542aea165fcfe13353c089c5caa5dd0b18474a6f8758810e",
+      "expected_sha256": "5e90d5cbd82c27f5542aea165fcfe13353c089c5caa5dd0b18474a6f8758810e",
+      "pass": true
+    },
+    {
+      "name": "embedded SPEC_LOCK_v321",
+      "path": "C:\\Users\\lenovo\\Desktop\\الحزمة الجديدة\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\reference\\primary_lock\\SPEC_LOCK_v321.json",
+      "required": true,
+      "exists": true,
+      "sha256": "98f5b9bee3b4f39495d70c88ed0b922f102e12abb12df0324c0975bffb3aace2",
+      "expected_sha256": "98f5b9bee3b4f39495d70c88ed0b922f102e12abb12df0324c0975bffb3aace2",
+      "pass": true
+    },
+    {
+      "name": "asymmetric:FINAL_ASYMMETRIC_NU_AUDIT_REPORT.md",
+      "path": "C:\\Users\\lenovo\\Desktop\\الحزمة الجديدة\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\reference\\asymmetric_completed\\FINAL_ASYMMETRIC_NU_AUDIT_REPORT.md",
+      "required": true,
+      "exists": true,
+      "sha256": "d462effb624b25284b427bbb87eb0115b0c7c6bffe17bbd8674ca9a90fe3a917",
+      "expected_sha256": "d462effb624b25284b427bbb87eb0115b0c7c6bffe17bbd8674ca9a90fe3a917",
+      "pass": true
+    },
+    {
+      "name": "asymmetric:tables/ASYMMETRIC_NU_RESULTS.csv",
+      "path": "C:\\Users\\lenovo\\Desktop\\الحزمة الجديدة\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\reference\\asymmetric_completed\\tables\\ASYMMETRIC_NU_RESULTS.csv",
+      "required": true,
+      "exists": true,
+      "sha256": "d9bfbb9f0f8dd033a1914eda39f98853baa6ddb606c02641c95b41a60c14bb38",
+      "expected_sha256": "d9bfbb9f0f8dd033a1914eda39f98853baa6ddb606c02641c95b41a60c14bb38",
+      "pass": true
+    },
+    {
+      "name": "asymmetric:tables/BOOTSTRAP_DRAW_LEVEL_SYM_VS_ASYM.csv",
+      "path": "C:\\Users\\lenovo\\Desktop\\الحزمة الجديدة\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\reference\\asymmetric_completed\\tables\\BOOTSTRAP_DRAW_LEVEL_SYM_VS_ASYM.csv",
+      "required": true,
+      "exists": true,
+      "sha256": "1df59370c443546ab9106a235b933237a1f2bcd44bd0a4a547c31bc9d72052ed",
+      "expected_sha256": "1df59370c443546ab9106a235b933237a1f2bcd44bd0a4a547c31bc9d72052ed",
+      "pass": true
+    },
+    {
+      "name": "asymmetric:tables/SHADOW_SENSITIVITY_DECISIONS.csv",
+      "path": "C:\\Users\\lenovo\\Desktop\\الحزمة الجديدة\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\reference\\asymmetric_completed\\tables\\SHADOW_SENSITIVITY_DECISIONS.csv",
+      "required": true,
+      "exists": true,
+      "sha256": "83b6e81bc734af31aa831d736c8bdc12c72dd007fd44f58b4fb119960b2c605d",
+      "expected_sha256": "83b6e81bc734af31aa831d736c8bdc12c72dd007fd44f58b4fb119960b2c605d",
+      "pass": true
+    },
+    {
+      "name": "asymmetric:tables/SYMMETRIC_REPLAY_AUDIT.csv",
+      "path": "C:\\Users\\lenovo\\Desktop\\الحزمة الجديدة\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\reference\\asymmetric_completed\\tables\\SYMMETRIC_REPLAY_AUDIT.csv",
+      "required": true,
+      "exists": true,
+      "sha256": "df84e9d6601f2bdd96a6ed4d3bcf5f1abb8ae73e908c753a2ffba30875360a06",
+      "expected_sha256": "df84e9d6601f2bdd96a6ed4d3bcf5f1abb8ae73e908c753a2ffba30875360a06",
+      "pass": true
+    },
+    {
+      "name": "vendored v321 pb.py",
+      "path": "C:\\Users\\lenovo\\Desktop\\الحزمة الجديدة\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\vendor\\fgt_csaudit\\pb.py",
+      "required": true,
+      "exists": true,
+      "sha256": "09e94bb3c3cc7b45e926985095a5e34d16276b3ae0d29ecc22517354742a474e",
+      "expected_sha256": "09e94bb3c3cc7b45e926985095a5e34d16276b3ae0d29ecc22517354742a474e",
+      "pass": true
+    },
+    {
+      "name": "vendored v321 correction_fit.py",
+      "path": "C:\\Users\\lenovo\\Desktop\\الحزمة الجديدة\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\vendor\\fgt_csaudit\\correction_fit.py",
+      "required": true,
+      "exists": true,
+      "sha256": "03642ae7ee9d81cfdf2a353e6e23f4d035f412289f07434882e50b53f5a7f5eb",
+      "expected_sha256": "03642ae7ee9d81cfdf2a353e6e23f4d035f412289f07434882e50b53f5a7f5eb",
+      "pass": true
+    },
+    {
+      "name": "vendored v321 cli.py",
+      "path": "C:\\Users\\lenovo\\Desktop\\الحزمة الجديدة\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\vendor\\fgt_csaudit\\cli.py",
+      "required": true,
+      "exists": true,
+      "sha256": "9c2461eb70871e07f58df7c29ea3608d95c270bfaa42a1ca8ba54399333f3b6b",
+      "expected_sha256": "9c2461eb70871e07f58df7c29ea3608d95c270bfaa42a1ca8ba54399333f3b6b",
+      "pass": true
+    }
+  ],
+  "fine_shape": {
+    "rows": 15300,
+    "columns": 57,
+    "case_labels": [
+      "random_p080",
+      "random_p085",
+      "random_p090"
+    ],
+    "sizes": [
+      40,
+      60,
+      80,
+      100,
+      120
+    ],
+    "duplicates": 0
+  },
+  "reference_shape": {
+    "rows": 1050,
+    "columns": 57,
+    "case_labels": [
+      "pristine_p100"
+    ],
+    "sizes": [
+      40,
+      60,
+      80,
+      100,
+      120
+    ],
+    "duplicates": 0
+  },
+  "quality_gate_status": "pass",
+  "adaptive_status": "precision_gate_passed",
+  "embedded_full_symmetric_replay_rows": 52,
+  "package_integrity": {
+    "manifest": "C:\\Users\\lenovo\\Desktop\\الحزمة الجديدة\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\HONEYCOMB_FINAL_HARDENING_v1_STRICT\\IMMUTABLE_PACKAGE_SHA256_MANIFEST.csv",
+    "files_verified": 72,
+    "status": "PASS"
+  },
+  "environment": {
+    "created_utc": "2026-08-18T09:33:22.427737+00:00",
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "stage": "FULL_WINDOW_ESS_AUDIT",
+  "status": "PASS",
+  "created_utc": "2026-08-18T09:33:22.630048+00:00",
+  "rule_scope": "post-hoc sensitivity diagnostic only; NOT the original near-Tc publication gate",
+  "realization_threshold": 100.0,
+  "cell_required_pass_fraction": 0.9,
+  "primary_source_mask_metric": "corrected energy ESS only",
+  "frozen_diluted_count_checkpoint_match": true,
+  "summary": [
+    {
+      "case_label": "pristine_p100",
+      "total_cells": 105,
+      "failed_energy_cells": 26,
+      "min_corrected_ESS_E": 6.046766378769239,
+      "median_of_cell_median_ESS_E": 754.0435288990304
+    },
+    {
+      "case_label": "random_p080",
+      "total_cells": 85,
+      "failed_energy_cells": 13,
+      "min_corrected_ESS_E": 8.84835630863036,
+      "median_of_cell_median_ESS_E": 822.6876074225213
+    },
+    {
+      "case_label": "random_p085",
+      "total_cells": 85,
+      "failed_energy_cells": 13,
+      "min_corrected_ESS_E": 11.34427065791795,
+      "median_of_cell_median_ESS_E": 812.97156392473
+    },
+    {
+      "case_label": "random_p090",
+      "total_cells": 85,
+      "failed_energy_cells": 20,
+      "min_corrected_ESS_E": 8.8422207260829,
+      "median_of_cell_median_ESS_E": 558.0347392202195
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "stage": "BASELINE_REPLAY_VERIFICATION",
+  "status": "PASS",
+  "created_utc": "2026-08-18T09:33:22.230059+00:00",
+  "local_sentinels_per_case": [
+    0,
+    999,
+    1999
+  ],
+  "local_rows": 24,
+  "tolerance": 5e-10,
+  "embedded_completed_full_replay": "PASS (verified in precheck)",
+  "interpretation": "Local deterministic recreation plus cryptographically verified completed 52-metric full symmetric replay. This stage does not change any scientific result."
+}

@@ -1,0 +1,9 @@
+{
+  "stage": "MANUSCRIPT_SUPPORT",
+  "status": "READY_FOR_CONTROLLED_INTEGRATION",
+  "created_utc": "2026-08-18T09:48:32.992121+00:00",
+  "primary_analysis_overwritten": false,
+  "asymmetric_count_lock": "5/6 diluted asymmetric upper endpoints reach 1.45; p0.90 Binder exception 1.2735154573670118",
+  "ess_conclusion_stable": true,
+  "strong_ess_dependency_closure_supported": true
+}

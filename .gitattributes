@@ -21,3 +21,4 @@ provenance/** -text
 tables/** -text
 tests/** -text
 sensitivity/** -text
+hardening/** -text
