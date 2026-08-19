@@ -1,0 +1,24 @@
+{
+  "figure": "Figure1_Tc_vs_p_clean",
+  "input": "TABLE_TC_RG_CROSSING_BOOTSTRAP.snapshot.csv",
+  "input_sha256": "ad66a05dcbcf82aea4f16ad3639f7afcd8b34789fee75ecc4ee40f578580f688",
+  "exact_tc": 1.518651435000414,
+  "meaning": "Primary dilution-dependent critical temperature. Median and 95% realization-level percentile-bootstrap intervals are shown; the separate robustness envelope is a sensitivity range, not a confidence interval. The exact pristine honeycomb value is an external validation point only. No legacy estimator is plotted.",
+  "outputs": [
+    {
+      "path": "Figure1_Tc_vs_p_clean.pdf",
+      "sha256": "276816b942a2ec2d5acc7b2a46c645fb90c73cfcb29a8f878b60294fb1159bf2",
+      "bytes": 19434
+    },
+    {
+      "path": "Figure1_Tc_vs_p_clean.png",
+      "sha256": "86f2ffd4fe2755fe19ae14bd197719cfed9fbfef665b7edbbe38a91214b56377",
+      "bytes": 217845
+    },
+    {
+      "path": "Figure1_Tc_vs_p_clean.svg",
+      "sha256": "c66f46e3529c294ab7fd9aea59d41aaf22648188691d7af9eb4e7eb0db190dbc",
+      "bytes": 54770
+    }
+  ]
+}
