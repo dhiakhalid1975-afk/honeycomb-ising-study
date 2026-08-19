@@ -179,3 +179,12 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Project-specific exclusions
+*.zip
+*.7z
+*.rar
+raw_data/
+checkpoints/
+scratch/
+cache/
+~$*
